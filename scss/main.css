@@ -1,0 +1,65 @@
+@charset "UTF-8";
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #95B995;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+body nav .container {
+  width: 1440px;
+  height: 72px;
+  border-bottom: 4px solid;
+  justify-content: flex-end;
+  margin: -8px;
+}
+body nav .container img {
+  width: 276px;
+  height: 72px;
+  background-color: #FDFAFA;
+  top: 0px;
+  left: 0px;
+}
+body nav .container .SERV {
+  background-color: #FDFAFA;
+  position: relative;
+  left: 850px;
+  bottom: 30px;
+  border-radius: 8px;
+}
+body nav .container .CONTÁC {
+  background-color: #FDFAFA;
+  position: relative;
+  left: 900px;
+  bottom: 30px;
+  border-radius: 8px;
+}
+body .main-section img {
+  width: 1441px;
+  height: 800px;
+  margin: -7px;
+  position: relative;
+  bottom: -14px;
+  left: -2px;
+  right: 10px;
+}
+body .main-section p {
+  font-size: 30px;
+  color: #FDFAFA;
+  position: relative;
+  left: 45px;
+  bottom: 195px;
+}
+body .main-section .NOSOTROS-SECTION {
+  margin: none;
+}
+body .main-section .NOSOTROS-SECTION h1 {
+  position: relative;
+  left: 530px;
+  bottom: 180px;
+  font-size: 70px;
+}
+body .main-section svg {
+  position: relative;
+  left: 635px;
+  bottom: 230px;
+}/*# sourceMappingURL=main.css.map */

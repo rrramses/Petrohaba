@@ -1,0 +1,362 @@
+$primary-color: #95B995;
+$secondary-color: #953232;
+$tertiary-color: #007892;
+$quaternary-color: #D5EAD6;
+$quinary-color: #FDFAFA;
+$senary-color: #000000;
+$septenary-color: #F1F8F6;
+$font-stack: 'IBM Plex Sans',sans-serif;
+body{
+    margin: 0;
+    padding: 0;
+    background-color: $primary-color;
+    nav{
+        width: 100%;
+        height: 100px;
+        background-color: $quinary-color;
+        border-bottom: 4px solid;
+        img{
+            width: auto;
+            height: 72px;
+            background-color: $quinary-color;
+            position: relative;
+            bottom: -10px;
+        }
+        .SERV{
+            background-color: $quinary-color;
+            position: relative;
+            left: 850px;
+            bottom: 20px;
+            border-radius: 8px;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+        .CONTÁC{
+            background-color: $quinary-color;
+            position: relative;
+            left: 900px;
+            bottom: 20px;
+            border-radius: 8px;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+    .main-section{
+        .image-laboratory{
+            overflow-clip-margin: content-box;
+            overflow: clip;
+        }
+        p{
+            position: absolute;
+            left: 55px;
+            bottom: -340px;
+            font-size: 30px;
+            color: $quinary-color;
+        }
+        .NOSOTROS-SECTION{
+            h1{
+                position: relative;
+                font-size: 60px;
+                text-align: center;
+                margin: 0px;
+                padding-top: 50px;
+            }
+            .icon{
+                display: flex;
+                justify-content: center;
+                padding: 4px;
+    
+            }
+        }
+        article{
+            position: relative;
+            p{
+                margin: 0;
+                bottom: -573px;
+                color: $senary-color;
+                background-color: $quinary-color;
+                padding-bottom: 318px;
+                margin-left: 116px;
+                padding-left: 5px;
+                padding-right: 5px;
+                border-radius: 8px;
+                border-bottom: 4px solid;
+                border-top: 4px solid;
+                border-left: 4px solid;
+                border-right: 4px solid;
+            }
+            .image2{
+                position: absolute;
+                top: 310px;
+                left: 560px;
+            }
+        }
+        .image3{
+            img{
+                position: relative;
+                width: -webkit-fill-available;
+                border-top:  8px solid;
+                border-bottom:  8px solid;
+                top: 660px;
+            }
+        }
+        h2{
+            font-size: 40px;
+            position: relative;
+            top: 530px;
+            padding-top: 150px;
+            margin: 0px;
+            text-align: center;
+        }
+        .service-section{
+            h3{
+                position: relative;
+                top: 590px;
+                font-size: 55px;
+                border-bottom: 4px solid;
+                border-top: 4px solid;
+                border-right: 4px solid;
+                border-radius: 0px 3px 3px 0px;
+                font-weight: lighter;
+                background-color: $secondary-color;
+                border-color: $senary-color;
+                color: $quinary-color;
+                width: 626px;
+            }
+            .servicios{
+                padding-top: 626px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                column-gap: 100px;
+                row-gap: 80px;
+                flex-wrap: wrap;
+                .product-card{
+                    border: 4px solid;
+                    background-color: $tertiary-color;
+                    width: 350px;
+                    height: 600px;
+                    border-radius: 5px;
+                    border-color: $senary-color;
+                    .content-card{
+                        background-color: $quinary-color;
+                        width: 325px;
+                        height: 578px;
+                        border-radius: 5px;
+                        position: relative;
+                        left: 12px;
+                        top: 11px;
+                        img {
+                            position: relative;
+                            width: 325px;
+                            height: 360px;
+                        }
+                        p{
+                            position: relative;
+                            color: $senary-color;
+                            bottom: 15px;
+                            left: 5px;
+                            font-size: 20px;
+                        }
+                        .button1 {
+                            width: 147px;
+                            height: 40px;
+                            position: relative;
+                            left: 90px;
+                            top: 30px;
+                            border-radius: 9px;
+                            font-weight: bold;
+                            background-color: $primary-color;
+                            &:hover{
+                                transform: scale(1.1);
+                            }
+                        }
+                        .button2 {
+                            position: relative;
+                            width: 147px;
+                            height: 40px;
+                            left: 90px;
+                            top: 7px;
+                            border-radius: 9px;
+                            font-weight: bold;
+                            background-color: $primary-color;
+                            &:hover{
+                                transform: scale(1.1);
+                            }
+                        }
+                        .button3 {
+                            position: relative;
+                            width: 147px;
+                            height: 40px;
+                            left: 90px;
+                            top: 53px;
+                            border-radius: 9px;
+                            font-weight: bold;
+                            background-color: $primary-color;
+                            &:hover{
+                                transform: scale(1.1);
+                            }
+                        }
+                        .button4 {
+                            position: relative;
+                            width: 147px;
+                            height: 40px;
+                            left: 90px;
+                            top: 53px;
+                            border-radius: 9px;
+                            font-weight: bold;
+                            background-color: $primary-color;
+                            &:hover{
+                                transform: scale(1.1);
+                            }
+                        }
+                        .button5 {
+                            position: relative;
+                            width: 147px;
+                            height: 40px;
+                            left: 90px;
+                            top: 99px;
+                            border-radius: 9px;
+                            font-weight: bold;
+                            background-color: $primary-color;
+                            &:hover{
+                                transform: scale(1.1);
+                            }
+                        }
+                        .button6 {
+                            position: relative;
+                            width: 147px;
+                            height: 40px;
+                            left: 90px;
+                            bottom: 15px;
+                            border-radius: 9px;
+                            font-weight: bold;
+                            background-color: $primary-color;
+                            &:hover{
+                                transform: scale(1.1);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .direction {
+            background-color: $secondary-color;
+            width: 330px;
+            height: 65px;
+            border-radius: 0px 3px 3px 0px;
+            border-bottom: 4px solid;
+            border-top: 4px solid;
+            border-right: 4px solid;
+            position: relative;
+            top: 80px;
+            h4 {
+                margin: 0px;
+                font-size: 55px;
+                position: relative;
+                top: 8px;
+                color: $quinary-color;
+                font-weight: lighter;
+            }
+            img {
+                width: 990px;
+                height: 700px;
+                position: relative;
+                top: 60px;
+                left: 240px;
+                border: 4px solid;
+            }
+            .texto-ubicación {
+                background-color: $quinary-color;
+                position: relative;
+                top: 53px;
+                left: 240px;
+                width: 990px;
+                border: 4px solid;
+                svg {
+                    position: relative;
+                    left: 50px;
+                }
+                p {
+                    margin: 0px;
+                    bottom: 0px;
+                    color: $senary-color;
+                    left: 91px;
+                    width: 500px;
+                }
+            }
+        }
+        .contacto {
+            img {
+                width: 1440px;
+                position: relative;
+                top: 891px;
+            }
+            .logo-petrohaba {
+                img {
+                    width: 350px;
+                    height: 87px;
+                    position: relative;
+                    top: 190px;
+                    left: 550px;
+                }
+            }
+            P {
+                width: 500px;
+                font-size: 50px;
+                position: relative;
+                top: 180px;
+                left: 310px;
+                margin: 0px;
+                color: $quinary-color;
+            }
+            .icon-ubication {
+                img {
+                    position: relative;
+                    width: 44px;
+                    height: 44px;
+                    top: 194px;
+                    left: 290px;
+                }
+                p {
+                    position: relative;
+                    font-size: 20px;
+                    top: 145px;
+                    padding-left: 30px;            
+                }
+            }
+            .icon-tel {
+                img {
+                    position: relative;
+                    top: 180px;
+                    left: 290px;
+                    width: 44px;
+                    height: 44px;
+                }
+                p {
+                    position: relative;
+                    font-size: 20px;
+                    top: 140px;
+                    padding-left: 30px;            
+                }
+            }
+            .icon-email {
+                img {
+                    position: relative;
+                    top: 190px;
+                    left: 290px;
+                    width: 44px;
+                    height: 44px;
+                }
+                p {
+                    position: relative;
+                    font-size: 20px;
+                    top: 150px;
+                    padding-left: 30px;
+                }
+            }
+        }
+    }
+}

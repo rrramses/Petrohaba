@@ -1,0 +1,337 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #95B995;
+}
+body nav {
+  width: 100%;
+  height: 100px;
+  background-color: #FDFAFA;
+  border-bottom: 4px solid;
+}
+body nav img {
+  width: auto;
+  height: 72px;
+  background-color: #FDFAFA;
+  position: relative;
+  bottom: -10px;
+}
+body nav .SERV {
+  background-color: #FDFAFA;
+  position: relative;
+  left: 850px;
+  bottom: 20px;
+  border-radius: 8px;
+}
+body nav .SERV:hover {
+  transform: scale(1.1);
+}
+body nav .CONTÁC {
+  background-color: #FDFAFA;
+  position: relative;
+  left: 900px;
+  bottom: 20px;
+  border-radius: 8px;
+}
+body nav .CONTÁC:hover {
+  transform: scale(1.1);
+}
+body .main-section .image-laboratory {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+body .main-section p {
+  position: absolute;
+  left: 55px;
+  bottom: -340px;
+  font-size: 30px;
+  color: #FDFAFA;
+}
+body .main-section .NOSOTROS-SECTION h1 {
+  position: relative;
+  font-size: 60px;
+  text-align: center;
+  margin: 0px;
+  padding-top: 50px;
+}
+body .main-section .NOSOTROS-SECTION .icon {
+  display: flex;
+  justify-content: center;
+  padding: 4px;
+}
+body .main-section article {
+  position: relative;
+}
+body .main-section article p {
+  margin: 0;
+  bottom: -573px;
+  color: #000000;
+  background-color: #FDFAFA;
+  padding-bottom: 318px;
+  margin-left: 116px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 8px;
+  border-bottom: 4px solid;
+  border-top: 4px solid;
+  border-left: 4px solid;
+  border-right: 4px solid;
+}
+body .main-section article .image2 {
+  position: absolute;
+  top: 310px;
+  left: 560px;
+}
+body .main-section .image3 img {
+  position: relative;
+  width: -webkit-fill-available;
+  border-top: 8px solid;
+  border-bottom: 8px solid;
+  top: 660px;
+}
+body .main-section h2 {
+  font-size: 40px;
+  position: relative;
+  top: 530px;
+  padding-top: 150px;
+  margin: 0px;
+  text-align: center;
+}
+body .main-section .service-section h3 {
+  position: relative;
+  top: 590px;
+  font-size: 55px;
+  border-bottom: 4px solid;
+  border-top: 4px solid;
+  border-right: 4px solid;
+  border-radius: 0px 3px 3px 0px;
+  font-weight: lighter;
+  background-color: #953232;
+  border-color: #000000;
+  color: #FDFAFA;
+  width: 626px;
+}
+body .main-section .service-section .servicios {
+  padding-top: 626px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 100px;
+       column-gap: 100px;
+  row-gap: 80px;
+  flex-wrap: wrap;
+}
+body .main-section .service-section .servicios .product-card {
+  border: 4px solid;
+  background-color: #007892;
+  width: 350px;
+  height: 600px;
+  border-radius: 5px;
+  border-color: #000000;
+}
+body .main-section .service-section .servicios .product-card .content-card {
+  background-color: #FDFAFA;
+  width: 325px;
+  height: 578px;
+  border-radius: 5px;
+  position: relative;
+  left: 12px;
+  top: 11px;
+}
+body .main-section .service-section .servicios .product-card .content-card img {
+  position: relative;
+  width: 325px;
+  height: 360px;
+}
+body .main-section .service-section .servicios .product-card .content-card p {
+  position: relative;
+  color: #000000;
+  bottom: 15px;
+  left: 5px;
+  font-size: 20px;
+}
+body .main-section .service-section .servicios .product-card .content-card .button1 {
+  width: 147px;
+  height: 40px;
+  position: relative;
+  left: 90px;
+  top: 30px;
+  border-radius: 9px;
+  font-weight: bold;
+  background-color: #95B995;
+}
+body .main-section .service-section .servicios .product-card .content-card .button1:hover {
+  transform: scale(1.1);
+}
+body .main-section .service-section .servicios .product-card .content-card .button2 {
+  position: relative;
+  width: 147px;
+  height: 40px;
+  left: 90px;
+  top: 7px;
+  border-radius: 9px;
+  font-weight: bold;
+  background-color: #95B995;
+}
+body .main-section .service-section .servicios .product-card .content-card .button2:hover {
+  transform: scale(1.1);
+}
+body .main-section .service-section .servicios .product-card .content-card .button3 {
+  position: relative;
+  width: 147px;
+  height: 40px;
+  left: 90px;
+  top: 53px;
+  border-radius: 9px;
+  font-weight: bold;
+  background-color: #95B995;
+}
+body .main-section .service-section .servicios .product-card .content-card .button3:hover {
+  transform: scale(1.1);
+}
+body .main-section .service-section .servicios .product-card .content-card .button4 {
+  position: relative;
+  width: 147px;
+  height: 40px;
+  left: 90px;
+  top: 53px;
+  border-radius: 9px;
+  font-weight: bold;
+  background-color: #95B995;
+}
+body .main-section .service-section .servicios .product-card .content-card .button4:hover {
+  transform: scale(1.1);
+}
+body .main-section .service-section .servicios .product-card .content-card .button5 {
+  position: relative;
+  width: 147px;
+  height: 40px;
+  left: 90px;
+  top: 99px;
+  border-radius: 9px;
+  font-weight: bold;
+  background-color: #95B995;
+}
+body .main-section .service-section .servicios .product-card .content-card .button5:hover {
+  transform: scale(1.1);
+}
+body .main-section .service-section .servicios .product-card .content-card .button6 {
+  position: relative;
+  width: 147px;
+  height: 40px;
+  left: 90px;
+  bottom: 15px;
+  border-radius: 9px;
+  font-weight: bold;
+  background-color: #95B995;
+}
+body .main-section .service-section .servicios .product-card .content-card .button6:hover {
+  transform: scale(1.1);
+}
+body .main-section .direction {
+  background-color: #953232;
+  width: 330px;
+  height: 65px;
+  border-radius: 0px 3px 3px 0px;
+  border-bottom: 4px solid;
+  border-top: 4px solid;
+  border-right: 4px solid;
+  position: relative;
+  top: 80px;
+}
+body .main-section .direction h4 {
+  margin: 0px;
+  font-size: 55px;
+  position: relative;
+  top: 8px;
+  color: #FDFAFA;
+  font-weight: lighter;
+}
+body .main-section .direction img {
+  width: 990px;
+  height: 700px;
+  position: relative;
+  top: 60px;
+  left: 240px;
+  border: 4px solid;
+}
+body .main-section .direction .texto-ubicación {
+  background-color: #FDFAFA;
+  position: relative;
+  top: 53px;
+  left: 240px;
+  width: 990px;
+  border: 4px solid;
+}
+body .main-section .direction .texto-ubicación svg {
+  position: relative;
+  left: 50px;
+}
+body .main-section .direction .texto-ubicación p {
+  margin: 0px;
+  bottom: 0px;
+  color: #000000;
+  left: 91px;
+  width: 500px;
+}
+body .main-section .contacto img {
+  width: 1440px;
+  position: relative;
+  top: 891px;
+}
+body .main-section .contacto .logo-petrohaba img {
+  width: 350px;
+  height: 87px;
+  position: relative;
+  top: 190px;
+  left: 550px;
+}
+body .main-section .contacto P {
+  width: 500px;
+  font-size: 50px;
+  position: relative;
+  top: 180px;
+  left: 310px;
+  margin: 0px;
+  color: #FDFAFA;
+}
+body .main-section .contacto .icon-ubication img {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  top: 194px;
+  left: 290px;
+}
+body .main-section .contacto .icon-ubication p {
+  position: relative;
+  font-size: 20px;
+  top: 145px;
+  padding-left: 30px;
+}
+body .main-section .contacto .icon-tel img {
+  position: relative;
+  top: 180px;
+  left: 290px;
+  width: 44px;
+  height: 44px;
+}
+body .main-section .contacto .icon-tel p {
+  position: relative;
+  font-size: 20px;
+  top: 140px;
+  padding-left: 30px;
+}
+body .main-section .contacto .icon-email img {
+  position: relative;
+  top: 190px;
+  left: 290px;
+  width: 44px;
+  height: 44px;
+}
+body .main-section .contacto .icon-email p {
+  position: relative;
+  font-size: 20px;
+  top: 150px;
+  padding-left: 30px;
+}/*# sourceMappingURL=main.css.map */
